@@ -31,7 +31,11 @@ State logic exists **only in the domain layer**.
 Architecture Summary
 --------------------
 
-`   UI / AI Input       ↓  REST API       ↓  Application Service       ↓  Domain Model (rules enforced here)       ↓  Repository       ↓  SQLite Database   `
+`   UI / AI Input       
+        ↓ 
+     REST API       
+        ↓  
+    Application Service       ↓  Domain Model (rules enforced here)       ↓  Repository       ↓  SQLite Database   `
 
 AI is used **only** to convert text into structured intent.All validations happen in the same backend logic as UI actions.
 
