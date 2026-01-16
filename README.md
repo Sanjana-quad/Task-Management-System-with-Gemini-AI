@@ -31,7 +31,7 @@ State logic exists **only in the domain layer**.
 Architecture Summary
 --------------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   UI / AI Input       ↓  REST API       ↓  Application Service       ↓  Domain Model (rules enforced here)       ↓  Repository       ↓  SQLite Database   `
+`   UI / AI Input       ↓  REST API       ↓  Application Service       ↓  Domain Model (rules enforced here)       ↓  Repository       ↓  SQLite Database   `
 
 AI is used **only** to convert text into structured intent.All validations happen in the same backend logic as UI actions.
 
