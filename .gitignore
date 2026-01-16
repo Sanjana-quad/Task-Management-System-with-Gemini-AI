@@ -1,0 +1,31 @@
+# Secrets
+.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+venv/
+
+# Database
+db.sqlite3
+
+# Django
+staticfiles/
+media/
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+node_modules
+dist
